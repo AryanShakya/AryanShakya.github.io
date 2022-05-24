@@ -1,0 +1,29 @@
+html {
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;    
+    background-attachment: fixed;
+    background: linear-gradient(to bottom right,#0026ffbb,#0066ff 0%,#e00f78 67%, #ff0066 100%,#8400fff6 100%);
+  }
+div{
+    font-family: 'Raleway', sans-serif;
+}
+
+#HomeHeader{
+  overflow: hidden;
+  height: 48vw;
+  background: url("../art/images/header.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: color-burn;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: auto;
+  color: #fcf403;
+}
