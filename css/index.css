@@ -5,10 +5,12 @@ html {
 body{
     height: 100%;
     margin: 0;
+    background-color: #567295;
+    background: linear-gradient(315deg, hsla(44, 100%, 52%, 1) 0%, hsla(0, 100%, 50%, 1) 100%);
+    /* background: linear-gradient(to bottom right,#0026ffbb,#0066ff 0%,#e00f78 67%, #ff0066 100%,#8400fff6 100%); */
+    /* background: linear-gradient(135deg, hsla(339, 100%, 55%, 1) 0%, hsla(217, 100%, 50%, 1) 100%); */
     background-repeat: no-repeat;    
     background-attachment: fixed;
-    background-image: url("../art/images/background.png");
-    /* background: linear-gradient(to bottom right,#0026ffbb,#0066ff 0%,#e00f78 67%, #ff0066 100%,#8400fff6 100%); */
   }
 div{
     font-family: 'Raleway', sans-serif;
@@ -26,4 +28,54 @@ div{
   text-transform: capitalize;
   font-size: auto;
   color: #fcf403;
+}
+/* The navbar container */
+.topnav {
+  overflow: hidden; 
+  background-color: #333;
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Links - change color on hover */
+.topnav a:hover {
+  background-color: #FF9900;
+  color: black;
+  text-decoration: solid;
+}
+.cards{
+  margin-top: 4vw;
+  /* margin-left: 1vw; */
+  /* margin-right: 4vw; */
+  /* margin-bottom: 3vw; */
+  padding: 2vw;
+  padding-bottom: 4vw;
+  float: left;
+  /* width: auto; */
+  text-align: center;
+  height: auto;
+  background-position: center;
+  background-size: cover;
+  color: black;
+  border-radius: 2em;
+}
+
+
+/* Style the footer */
+.footer {
+  background-color: #333;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+  color: aliceblue;
 }
