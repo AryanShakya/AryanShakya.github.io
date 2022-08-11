@@ -1,0 +1,71 @@
+html {
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    margin: 0;
+    /* background: linear-gradient(315deg, hsla(44, 100%, 52%, 1) 0%, rgba(255, 0, 0, 0.922) 100%);    alternate gradients */
+    background: linear-gradient(135deg, hsla(339, 100%, 55%, 1) 0%, hsla(217, 100%, 50%, 1) 100%);  /*alternate gradients*/
+    /* background: linear-gradient(315deg, hsla(193, 100%, 50%, 1) 0%, hsla(112, 90%, 51%, 1) 100%); */  /*alternate gradients*/
+    background-repeat: no-repeat;    
+    background-attachment: fixed;
+    font-family: 'Raleway', sans-serif;
+    font-size: larger;
+    text-shadow: #333;
+  }
+div{
+    font-family: 'Raleway', sans-serif;
+    font-size: larger;
+    text-shadow: #333;
+}
+
+p{
+  font-size: x-large;
+}
+
+
+a:link {
+  color: #fff;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #333;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+
+.cards{
+  margin-top: 4vw;
+  /* margin-left: 1vw; */
+  /* margin-right: 4vw; */
+  /* margin-bottom: 3vw; */
+  padding: 2vw;
+  padding-bottom: 4vw;
+  float: left;
+  /* width: auto; */
+  text-align: center;
+  height: auto;
+  background-position: center;
+  background-size: cover;
+  color: black;
+  border-radius: 2em;
+}
+
+
+/* Style the footer */
+.footer {
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  background-color: #333;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+  color: aliceblue;
+  line-height: 1vw;
+}
