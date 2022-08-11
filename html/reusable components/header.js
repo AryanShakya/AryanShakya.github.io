@@ -10,7 +10,7 @@ class Header extends HTMLElement {
       .HomeHeader{
         overflow: hidden;
         height: 48vw;
-        background: url("./html/reusable components/css/images/header-c.jpg");
+        background: url("./css/images/header-c.jpg");
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
