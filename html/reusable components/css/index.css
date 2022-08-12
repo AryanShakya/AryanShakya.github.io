@@ -14,6 +14,9 @@ body{
     font-size: larger;
     text-shadow: #333;
   }
+
+  
+
 div{
     font-family: 'Raleway', sans-serif;
     font-size: larger;
@@ -48,24 +51,29 @@ a:hover {
   float: left;
   /* width: auto; */
   text-align: center;
-  height: auto;
+  height: max-content;
+  width: 100%;
   background-position: center;
   background-size: cover;
   color: black;
   border-radius: 2em;
 }
 
-
-/* Style the footer */
-.footer {
-  padding-top: 1vw;
-  padding-bottom: 1vw;
+.image{
+  border-radius: 6vw;
   background-color: #333;
-  text-align: center;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  overflow: hidden;
-  color: aliceblue;
-  line-height: 1vw;
+  height: 30vw;
+  /* margin-bottom: 3vw; */
+  width: 35vw;
+}
+
+#image-odd{
+  margin-right: 3vw;
+  float: left;
+  margin-bottom: 4vw;
+}
+
+#image-even{
+  margin-left: 3vw;
+  float: right;
 }
