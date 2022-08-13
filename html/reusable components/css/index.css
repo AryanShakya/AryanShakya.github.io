@@ -42,7 +42,7 @@ a:hover {
 
 
 .cards{
-  margin-top: 4vw;
+  margin-top: 2vw;
   /* margin-left: 1vw; */
   /* margin-right: 4vw; */
   /* margin-bottom: 3vw; */
@@ -52,6 +52,7 @@ a:hover {
   /* width: auto; */
   text-align: center;
   height: max-content;
+  font-size: 5vw;
   width: 100%;
   background-position: center;
   background-size: cover;
@@ -59,21 +60,27 @@ a:hover {
   border-radius: 2em;
 }
 
+
 .image{
   border-radius: 6vw;
   background-color: #333;
+  margin-bottom: 3vw;
+  margin-right: 3vw;
+  margin-left: 3vw;
   height: 30vw;
-  /* margin-bottom: 3vw; */
-  width: 35vw;
+  width: 40vw;
 }
 
 #image-odd{
-  margin-right: 3vw;
   float: left;
-  margin-bottom: 4vw;
+}
+
+.message{
+  margin-top: 6vw;
+  font-size: 5vw;
 }
 
 #image-even{
-  margin-left: 3vw;
   float: right;
 }
+

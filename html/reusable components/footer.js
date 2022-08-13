@@ -16,11 +16,35 @@ class Footer extends HTMLElement {
         color: aliceblue;
         font-family: 'Raleway', sans-serif;
       }
+
+      footer a:link {
+        color: #fff;
+        background-color: transparent;
+        text-decoration: underline;
+      }
+      
+      footer a:hover {
+        color: #fcf403;
+        background-color: transparent;
+        text-decoration: underline;
+      }
+      
+
+      img{
+        height:2vw;
+        size:2vw;
+      }
+
+      .footer{
+      }
+
       </style>
 
       <footer>
-      <p>No Copyright</p>
-      <p><a href="https://github.com/AryanShakya/AryanShakya.github.io">source code</a></p>
+      <div class="footer"> 
+      Made with <img src="./html/reusable components/css/images/heart.png" alt="nope"> <br>
+      <a href="https://github.com/AryanShakya/AryanShakya.github.io">source code</a>
+      </div>
       </footer>
 
       `;

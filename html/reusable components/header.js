@@ -54,6 +54,7 @@ class Header extends HTMLElement {
 
    <div class="HomeHeader">
       <h1>#Differentworld</h1>
+      
       <h6>Sorry, but this website suits well for bigger screens</h6>
       <h6>this may distort on mobiles for now.</h6>
    </div>
