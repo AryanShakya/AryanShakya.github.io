@@ -13,6 +13,8 @@ body{
     font-family: 'Raleway', sans-serif;
     font-size: larger;
     text-shadow: #333;
+    overflow-y: scroll;
+    overflow-x: hidden;
   }
 
   
@@ -43,13 +45,10 @@ a:hover {
 
 .cards{
   margin-top: 2vw;
-  /* margin-left: 1vw; */
-  /* margin-right: 4vw; */
-  /* margin-bottom: 3vw; */
   padding: 2vw;
   padding-bottom: 4vw;
+  padding-right: 2vw;
   float: left;
-  /* width: auto; */
   text-align: center;
   height: max-content;
   font-size: 5vw;
@@ -63,16 +62,28 @@ a:hover {
 
 .image{
   border-radius: 6vw;
-  background-color: #333;
   margin-bottom: 3vw;
   margin-right: 3vw;
   margin-left: 3vw;
   height: 30vw;
   width: 40vw;
+  overflow: hidden;
 }
 
 #image-odd{
   float: left;
+}
+
+#image-odd img{
+  border-radius: 1em;
+  height: 30vw;
+  width: 40vw;
+}
+
+#image-even img{
+  border-radius: 1em;
+  height: 30vw;
+  width: 40vw;
 }
 
 .message{
@@ -84,3 +95,7 @@ a:hover {
   float: right;
 }
 
+.center-fold img{
+  width: 50vw;
+  height: 50vw;
+}

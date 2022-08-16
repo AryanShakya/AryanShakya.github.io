@@ -31,8 +31,8 @@ class Footer extends HTMLElement {
       
 
       img{
-        height:2vw;
-        size:2vw;
+        height:5vw;
+        width:5vw;
       }
 
       .footer{
