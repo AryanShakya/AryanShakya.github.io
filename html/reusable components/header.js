@@ -9,8 +9,8 @@ class Header extends HTMLElement {
       
       .HomeHeader{
         overflow: hidden;
-        height: 48vw;
-        background: url("./html/reusable components/css/images/header-c.jpg");
+        height: 65vw;
+        background: url("./html/reusable components/css/images/header.svg");
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -23,41 +23,38 @@ class Header extends HTMLElement {
 
       
       nav {
+        font-size:2rem;
         font-family: 'Raleway', sans-serif;
         overflow: hidden; 
-        background-color: #333;
+        // background: linear-gradient(135deg, hsla(339, 100%, 55%, 1) 0%, hsla(217, 100%, 50%, 1) 100%);
       }
       
       nav a {
         float: left;
         display: block;
-        color: #f2f2f2;
+        color: black;
         text-align: center;
-        padding: 14px 16px;
+        padding: 14px ;
+        padding-bottom: 16px;
         text-decoration: none;
       }
       
       nav a:hover {
-        border-radius: 1vw;
-        background: linear-gradient(315deg, hsla(44, 100%, 52%, 1) 0%, rgba(255, 0, 0, 0.922) 100%);
-        color: black;
+        border-radius: 0.5rem;
+        color: white;
         text-decoration: solid;
       }
       </style>
 
       <header>
       <nav>
-    <a href="./about.html">About</a>
+    <a href="./html/about.html">About</a>
     <a href="#">Link</a>
     <a href="#">Link</a>
     <a href="#">Link</a>
       </nav>
 
    <div class="HomeHeader">
-      <h1>#Differentworld</h1>
-      
-      <h6>Sorry, but this website suits well for bigger screens</h6>
-      <h6>this may distort on mobiles for now.</h6>
    </div>
       </header>
 
