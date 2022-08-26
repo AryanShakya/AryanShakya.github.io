@@ -23,7 +23,7 @@ class Header extends HTMLElement {
 
       
       nav {
-        font-size:2rem;
+        font-size:3vw;
         font-family: 'Raleway', sans-serif;
         overflow: hidden; 
         // background: linear-gradient(135deg, hsla(339, 100%, 55%, 1) 0%, hsla(217, 100%, 50%, 1) 100%);
@@ -48,7 +48,7 @@ class Header extends HTMLElement {
 
       <header>
       <nav>
-    <a href="./html/about.html">About</a>
+    <a href="./html/projects.html">Projects</a>
     <a href="#">Link</a>
     <a href="#">Link</a>
     <a href="#">Link</a>
