@@ -60,7 +60,7 @@ a:hover {
 
 #wide{
   border-radius: 1vw;
-  margin: auto;
+  margin: 0 auto;
   width: 50%;
   /* translucent */
   box-shadow: 0 1vw 2vw hsla(0, 0%, 0%, 0.2);
@@ -70,8 +70,6 @@ a:hover {
   height: 30vw;
   width: 65vw;  /*95vw for wide*/
   padding-left: 5vw;
-  
-  /* gradient text properties */
 }
 
 .gradient-text{

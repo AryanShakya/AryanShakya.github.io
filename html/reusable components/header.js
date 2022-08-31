@@ -48,6 +48,7 @@ class Header extends HTMLElement {
 
       <header>
       <nav>
+    <a href="./index.html" style="float:right;" title="Home"><img src="./html/reusable components/css/images/home.svg" alt="home"></a>
     <a href="./html/projects.html">Projects</a>
     <a href="#">Link</a>
     <a href="#">Link</a>
