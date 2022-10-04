@@ -48,9 +48,8 @@ class Footer extends HTMLElement {
 
       <footer>
       <div class="footer"> 
-      Made with Love<br>
+      Made with Love ;)<br>
       <a href="https://github.com/AryanShakya/AryanShakya.github.io">source code</a><br>
-      not optmised for mobiles.
       </div>
       </footer>
 

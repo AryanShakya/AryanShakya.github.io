@@ -6,22 +6,7 @@ class Header extends HTMLElement {
     connectedCallback() {
       this.innerHTML = `
       <style>
-      
-      .HomeHeader{
-        overflow: hidden;
-        height: 65vw;
-        background: url("./html/reusable components/css/images/header.svg");
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        font-family: 'Raleway', sans-serif;
-        text-align: center;
-        text-transform: capitalize;
-        font-size: 1vw;
-        color: #fcf403;
-      }
-
-      
+           
       nav {
         font-size:3vw;
         font-family: 'Raleway', sans-serif;
@@ -48,15 +33,10 @@ class Header extends HTMLElement {
 
       <header>
       <nav>
-    <a href="./index.html" style="float:right;" title="Home"><img src="./html/reusable components/css/images/home.svg" alt="home"></a>
-    <a href="./html/projects.html">Projects</a>
-    <a href="#">Link</a>
-    <a href="#">Link</a>
-    <a href="#">Link</a>
+    <a href="./index.html" style="float:right;" title="Badass Home page"><img src="./html/reusable components/css/images/home.svg" alt="home"></a>
+    <a href="./about.html" title="About me, yay!">About</a>
+    <a href="./projects.html" title="Cool initiatives">Projects</a>
       </nav>
-
-   <div class="HomeHeader">
-   </div>
       </header>
 
       `;

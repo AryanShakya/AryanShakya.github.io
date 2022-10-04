@@ -1,7 +1,7 @@
 html {
     height: 100%;
 }
-
+/* main body css */
 body{
     height: 100%;
     margin: 0;
@@ -14,12 +14,27 @@ body{
     font-size: larger;
     text-shadow: #333;
     overflow-y: scroll;
-    overflow-x: hidden;
+    overflow-x: hidden; /*hides horizontal scroll bar*/
+  }
+
+
+  .HomeHeader{
+    overflow: hidden;
+    height: 65vw;
+    background: url("./images/header.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 1vw;
+    color: #fcf403;
   }
 
   
 div{
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', sans-serif;   /* google web fonts */
     font-size: larger;
     text-shadow: #333;
 }
@@ -29,14 +44,8 @@ p{
 }
 
 
-a:link {
-  color: #fff;
-  background-color: transparent;
-  text-decoration: none;
-}
-
 a:hover {
-  color: #333;
+  color: #fcf403;
   background-color: transparent;
   text-decoration: underline;
 }
@@ -69,19 +78,8 @@ a:hover {
   /* --translucent */
   height: 30vw;
   width: 65vw;  /*95vw for wide*/
+  margin-left: 17vw;
   padding-left: 5vw;
-}
-
-.gradient-text{
-color: #50BFE6;
-}
-
-
-#wide table{
-  border: rgb(137, 221, 226);
-  border-style: solid;
-  border-radius: 1vw;
-  border-width: 1vw;
 }
 
 
@@ -118,9 +116,4 @@ color: #50BFE6;
 
 #image-even{
   float: right;
-}
-
-.center-fold img{
-  width: 50vw;
-  height: 50vw;
 }
