@@ -45,10 +45,12 @@ class Footer extends HTMLElement {
       }
 
       </style>
-
+      <div class="cards">
+      ------------------The End------------------
+     </div>
       <footer>
       <div class="footer"> 
-      Made with Love ;)<br>
+      <b>Made with Love ;)</b><br>
       <a href="https://github.com/AryanShakya/AryanShakya.github.io">source code</a><br>
       </div>
       </footer>

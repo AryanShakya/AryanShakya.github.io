@@ -33,7 +33,7 @@ class Header extends HTMLElement {
 
       <header>
       <nav>
-    <a href="./index.html" style="float:right;" title="Badass Home page"><img src="./html/reusable components/css/images/home.svg" alt="home"></a>
+    <a href="./index.html" style="float:right;" title="Badass Home page"><img src="./html/reusable components/css/images/home.gif" alt="home"></a>
     <a href="./about.html" title="About me, yay!">About</a>
     <a href="./projects.html" title="Cool initiatives">Projects</a>
       </nav>
