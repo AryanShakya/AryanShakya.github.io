@@ -48,7 +48,10 @@ body {
   --color-two: #FF6D28;
   --color-three: #FCE700;
   --color-four: #00F5FF;
+<<<<<<< HEAD
   --color-one: #EA047E;
+=======
+>>>>>>> 0ab39d8030beae383840e2e5a41b9a40ccc36c80
   font-family: 'Raleway', sans-serif;
   font-size: clamp(3rem, 25vmin, 8rem);
   background: linear-gradient(
@@ -66,8 +69,13 @@ body {
 }
 @media (prefers-reduced-motion: no-preference) {
   .grad-text {
+<<<<<<< HEAD
     -webkit-animation: move-bg 2s linear infinite;
             animation: move-bg 2s linear infinite;
+=======
+    -webkit-animation: move-bg 8s linear infinite;
+            animation: move-bg 8s linear infinite;
+>>>>>>> 0ab39d8030beae383840e2e5a41b9a40ccc36c80
   }
   @-webkit-keyframes move-bg {
     to {
